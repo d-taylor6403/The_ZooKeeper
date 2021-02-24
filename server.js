@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const { animals } = require('./data/animals');
-
+const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(logger("tiny"));
 
@@ -53,6 +53,6 @@ app.get('/api/animals', (req, res) => {
 });
 
 
-app.listen(3001, () => {
-    console.log(`API server now on http://localhost:3001`);
+app.listen(PORT, () => {
+    console.log(`API server now on ${PORT}!`);
 });
