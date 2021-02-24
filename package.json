@@ -1,0 +1,25 @@
+{
+  "name": "The_ZooKeeper",
+  "version": "1.0.0",
+  "description": "NodeJS and Express application used to create a full stack application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-taylor6403/The_ZooKeeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-taylor6403/The_ZooKeeper/issues"
+  },
+  "homepage": "https://github.com/d-taylor6403/The_ZooKeeper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
