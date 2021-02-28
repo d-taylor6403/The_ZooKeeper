@@ -118,6 +118,15 @@
         "angry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Lola",
+      "species": "Flamingo",
+      "diet": "piscivore",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "12"
     }
   ]
 }
