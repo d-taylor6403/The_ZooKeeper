@@ -127,6 +127,15 @@
         "loving"
       ],
       "id": "12"
+    },
+    {
+      "name": "Mertle",
+      "species": "Turtle",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "13"
     }
   ]
 }
